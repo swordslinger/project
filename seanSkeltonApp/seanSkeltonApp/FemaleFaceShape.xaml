@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="seanSkeltonApp.FemaleFaceShape">
+    <ContentPage.Content>
+        <!-- different female faces that link too pages with more information about each faceshape -->
+        <StackLayout  Orientation="Vertical" HorizontalOptions="CenterAndExpand" BackgroundColor="Purple">
+            <Label Text="Welcome to Style High Club" TextColor="Gold" FontAttributes="Bold" 
+                VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+         
+            <ImageButton Source="femaleOval.png" Clicked="ButtonOval_ClickedAsync" HeightRequest="75" BackgroundColor="Purple"/>
+            <ImageButton Source="femaleRound.png" Clicked="ButtonRound_ClickedAsync" HeightRequest="75" BackgroundColor="Purple"/>
+            <ImageButton Source="femaleSquare.png" Clicked="ButtonSquare_ClickedAsync" HeightRequest="75" BackgroundColor="Purple"/>
+            <ImageButton Source="femaleTriangle.png" Clicked="ButtonTriangle_ClickedAsync" HeightRequest="75" BackgroundColor="Purple"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

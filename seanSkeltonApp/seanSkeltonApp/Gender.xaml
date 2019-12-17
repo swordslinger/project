@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:src="clr-namespace:seanSkeltonApp"
+             x:Class="seanSkeltonApp.login">
+    <ContentPage.Content>
+        <!-- gender page-->
+        <StackLayout BackgroundColor="Purple" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Label Text="Welcome to Style High Club" TextColor="Gold" FontAttributes="Bold" 
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <!-- lets the user select bioglogical gender-->
+            <Picker x:Name = "picker"
+                    Title="Gender" 
+                    TextColor="Gold"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                    </x:Array>
+
+                </Picker.ItemsSource>
+
+            </Picker>
+            <!-- navigation button-->
+            <Button Text="forward" VerticalOptions="EndAndExpand" Clicked="Button_ClickedAsync"></Button>
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

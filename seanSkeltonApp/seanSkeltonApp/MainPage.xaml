@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:seanSkeltonApp"
+             x:Class="seanSkeltonApp.MainPage">
+
+    <StackLayout  BackgroundColor="Purple" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+        <!-- login page with navigation button -->
+
+        
+            
+        
+        <Label Text="Welcome to Style High Club" TextColor="Gold" FontAttributes="Bold" 
+                VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+        <Entry BackgroundColor="Purple" 
+               Text="Enter UserName:" TextColor="Gold" FontAttributes="Bold" 
+                VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+        
+        <Entry BackgroundColor="Purple" 
+               Text="Enter Password:" TextColor="Gold" FontAttributes="Bold"
+                VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+        <Button Text="forward" VerticalOptions="EndAndExpand" Clicked="Button_ClickedAsync"></Button>
+
+
+    </StackLayout>
+
+
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="seanSkeltonApp.MaleDiamond">
+    <ContentPage.Content>
+        <!-- diamond faceshape male-->
+        <StackLayout BackgroundColor="Purple">
+            <Label Text="Welcome to Style High Club!" TextColor="Gold"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Image Source="diamondStyle.jpg"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

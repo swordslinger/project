@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="seanSkeltonApp.MalefaceShape">
+    <ContentPage.Content>
+        <!--  faceshape male page which links too pages with more information-->
+        <StackLayout  Orientation="Vertical" HorizontalOptions="CenterAndExpand" BackgroundColor="Purple">
+            <Label Text="Welcome to Style High Club" TextColor="Gold" FontAttributes="Bold" 
+                VerticalOptions="Start" HorizontalOptions="Center" />
+
+            <ImageButton Source="diamondMaleSmall.png" Clicked="ButtonDiamond_ClickedAsync" HeightRequest="75" BackgroundColor="Purple" />
+            <ImageButton Source="maleOvalSmall.png" Clicked="ButtonOval_ClickedAsync" HeightRequest="75"  BackgroundColor="Purple" />
+            <ImageButton Source="maleRoundSmall.png" Clicked="ButtonRound_ClickedAsync" HeightRequest="75"  BackgroundColor="Purple"/>
+            <ImageButton Source="maleSquareSmall.png" Clicked="ButtonSquare_ClickedAsync" HeightRequest="75"  BackgroundColor="Purple" />
+
+            
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
